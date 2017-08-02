@@ -11,9 +11,10 @@
 
     <title>Plan of Action</title>
 
+    <link href="css/blog.css" rel="stylesheet">
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-           <link href="css/blog.css" rel="stylesheet">
+   
+           
 <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -21,8 +22,7 @@
 
 <body>
   <div id="category">
-    <div id="header">
-        <?php include("menu.html");?>
+     <?php include("menu.html");?>
     <br>
     <br>
     <br>
@@ -280,7 +280,7 @@ background-position: center;background-size:cover;'><a href='#'></a>
                             $p=0;
                             while($p<4)
                             {
-                                echo"<li>
+                                echo"<li style='padding:5px;'>
 										<article>
 											<header>
 												<h3><a href='#' id='genre'>Be the Best Version of you</a></h3>
@@ -309,3 +309,4 @@ background-position: center;background-size:cover;'><a href='#'></a>
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>

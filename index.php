@@ -76,7 +76,7 @@ background-position: center;background-size:cover;'><a href='#'></a>
             ?>
         
         <div class="row load">
-            <div class="col-xs-12 col-sm-12 col-lg-4 col-md-4 col-lg-offset-5 col-md-offset-5"> <a href="#" class="btn btn-lg btn-success">LOAD MORE</a></div></div>
+            <div class="col-xs-12 col-sm-12 col-lg-4 col-md-4 col-lg-offset-4 col-md-offset-4"> <a href="#" class="btn btn-lg btn-success">LOAD MORE</a></div></div>
         
         <div class="row">
             <div id="left-wrapper" class="col-xs-12 col-sm-12 col-lg-8 col-md-8">
@@ -164,7 +164,7 @@ background-position: center;background-size:cover;'><a href='#'></a>
                             $p=0;
                             while($p<4)
                             {
-                                echo"<li>
+                                echo"<li style='padding:5px;'>
 										<article>
 											<header>
 												<h3><a href='#' id='genre'>Be the Best Version of you</a></h3>

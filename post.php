@@ -30,13 +30,14 @@
 <?php include("menu.html");?>
     <!-- Navigation -->
     <!-- Page Header -->
+    <br>
     <header class="masthead" style="background-image: url('img/post-bg.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
                     <div class="post-heading">
-                        <h1>This Bhayankar Thandi Coffee In Gurugram Is A Liquid Hug For Your Brain!</h1>
-                        <a href="#"><h5 class="category">FOOD AND LIFESTYLE</h5></a>
+                        <h1 style="font-size:35px">This Bhayankar Thandi Coffee In Gurugram Is A Liquid Hug For Your Brain!</h1>
+                        <a href="#" style="color:white;"><h5 class="category">FOOD AND LIFESTYLE</h5></a>
                         <span class="meta">Posted by <a href="#">Anuj Garg</a> on August 2, 2017</span>
                     </div>
                 </div>
@@ -55,10 +56,10 @@
     
  
     <!-- Facebook -->
-   <div class="col-xs-12 col-lg-5 col-md-6 col-sm-7"><a href="https://www.facebook.com/sharer/sharer.php?s=100&p[url]=http://www.example.com&p[images][0]=&p[title]=Title%20Goes%20Here&p[summary]=Description%20goes%20here!" target="_blank" onclick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=230'); return false"><button style="width:100%; margin-top:6px;" type="button" class="btn btn-facebook btn-lg"><i class="fa fa-facebook fa-2"></i> Share on Facebook</button></a><!-- Twitter -->
+   <div class="col-xs-12 col-lg-4 col-md-6 col-sm-7"><a href="https://www.facebook.com/sharer/sharer.php?s=100&p[url]=http://www.example.com&p[images][0]=&p[title]=Title%20Goes%20Here&p[summary]=Description%20goes%20here!" target="_blank" onclick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=230'); return false"><button style="width:100%; margin-top:6px;" type="button" class="btn btn-facebook btn-lg"><i class="fa fa-facebook fa-2"></i> Share on Facebook</button></a><!-- Twitter -->
     
    </div>
-    <div class="col-xs-12 col-lg-5 col-md-6 col-sm-7">
+    <div class="col-xs-12 col-lg-4 col-md-6 col-sm-7">
     <a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank" onclick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=230'); return false"><button style="width:100%; margin-top:6px;" type="button" class="btn btn-twitter btn-lg"><i class="fa fa-twitter fa-2"></i> Share on Twitter</button></a><!-- Twitter -->
     </div>
     </div>
@@ -105,7 +106,7 @@
     <!-- Blog Comments -->
 <div class="container">
             <div class="row">
-                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+                <div class="col-lg-12 offset-lg-2 col-md-10 offset-md-1">
 
                 <!-- Comments Form -->
                 <div class="well">
