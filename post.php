@@ -11,7 +11,7 @@
     <title>Plan of Action</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -50,18 +50,17 @@
 
 
             <div class="row">
-                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
-                                <div id="share-buttons">
+                <div class="col-lg-12  col-md-10 offset-md-2" >
+                                <div class="row">
     
  
     <!-- Facebook -->
-    <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" id="fb" target="_blank">
-        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />SHARE ON FACEBOOK
-    </a>
-<!-- Twitter -->
-    <a id="twi" href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
-        <img src="https://simplesharebuttons.com/images/somacro/twitter.png"  alt="Twitter" />SHARE ON TWITTER
-</a>
+   <div class="col-xs-12 col-lg-5 col-md-6 col-sm-7"><a href="https://www.facebook.com/sharer/sharer.php?s=100&p[url]=http://www.example.com&p[images][0]=&p[title]=Title%20Goes%20Here&p[summary]=Description%20goes%20here!" target="_blank" onclick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=230'); return false"><button style="width:100%; margin-top:6px;" type="button" class="btn btn-facebook btn-lg"><i class="fa fa-facebook fa-2"></i> Share on Facebook</button></a><!-- Twitter -->
+    
+   </div>
+    <div class="col-xs-12 col-lg-5 col-md-6 col-sm-7">
+    <a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank" onclick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=230'); return false"><button style="width:100%; margin-top:6px;" type="button" class="btn btn-twitter btn-lg"><i class="fa fa-twitter fa-2"></i> Share on Twitter</button></a><!-- Twitter -->
+    </div>
     </div>
                     <p>To the point: Mogli’s at City Centre, Gurugram is the perfect place to get a coffee dose, for kick-starting your day</p>
                     <p>Two guys were sitting idle trying to figure out where to get a cup of nice coffee. An idea came to their caffeine deprived brains-why not make one on their own. This is how they decided to take up a noble cause of selling brilliant coffee, on a price which is cheaper than the popular coffee shops. </p>
@@ -156,13 +155,15 @@
     <?php include("footer.html");?>
     
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+
+    
     <script src="vendor/tether/tether.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/clean-blog.min.js"></script>
-
+    <script src="js/script.js"></script>
 </body>
 
 </html>

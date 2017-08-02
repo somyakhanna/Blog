@@ -25,6 +25,7 @@
         <?php include("menu.html");?>
     <br>
     <br>
+    <br>
     <!--Banner Ends-->
     <div class="container" id="content">
         
@@ -54,9 +55,9 @@ background-position: center;background-size:cover;'><a href='#'></a>
             ?>
         
         <div class="row load">
-            <div class="col-xs-12 col-sm-12 col-lg-4 col-md-4 col-lg-offset-5 col-md-offset-5"> <a href="#" class="btn btn-lg btn-success">LOAD MORE</a></div></div>
+            <div class="col-xs-12 col-sm-12 col-lg-4 col-md-4 col-lg-offset-4 col-md-offset-4"> <a href="#" class="btn btn-lg btn-success">LOAD MORE</a></div></div>
         
-         <h1>Art,Culture And Heritage</h1>
+         <h1>Art And Culture</h1>
             <?php 
             $i=0;
             while ($i<3)
@@ -81,7 +82,7 @@ background-position: center;background-size:cover;'><a href='#'></a>
             ?>
         
         <div class="row load">
-            <div class="col-xs-12 col-sm-12 col-lg-4 col-md-4 col-lg-offset-5 col-md-offset-5"> <a href="#" class="btn btn-lg btn-success">LOAD MORE</a></div></div>
+            <div class="col-xs-12 col-sm-12 col-lg-4 col-md-4 col-lg-offset-4 col-md-offset-4"> <a href="#" class="btn btn-lg btn-success">LOAD MORE</a></div></div>
         <h1>Fashion And Beauty</h1>
             <?php 
             $i=0;
@@ -107,7 +108,7 @@ background-position: center;background-size:cover;'><a href='#'></a>
             ?>
         
         <div class="row load">
-            <div class="col-xs-12 col-sm-12 col-lg-4 col-md-4 col-lg-offset-5 col-md-offset-5"> <a href="#" class="btn btn-lg btn-success">LOAD MORE</a></div></div>
+            <div class="col-xs-12 col-sm-12 col-lg-4 col-md-4 col-lg-offset-4 col-md-offset-4"> <a href="#" class="btn btn-lg btn-success">LOAD MORE</a></div></div>
         
             <h1>Entertainment</h1>
             <?php 
@@ -134,7 +135,7 @@ background-position: center;background-size:cover;'><a href='#'></a>
             ?>
         
         <div class="row load">
-            <div class="col-xs-12 col-sm-12 col-lg-4 col-md-4 col-lg-offset-5 col-md-offset-5"> <a href="#" class="btn btn-lg btn-success">LOAD MORE</a></div></div>
+            <div class="col-xs-12 col-sm-12 col-lg-4 col-md-4 col-lg-offset-4 col-md-offset-4"> <a href="#" class="btn btn-lg btn-success">LOAD MORE</a></div></div>
         
        
                
@@ -164,7 +165,7 @@ background-position: center;background-size:cover;'><a href='#'></a>
             ?>
         
         <div class="row load">
-            <div class="col-xs-12 col-sm-12 col-lg-4 col-md-4 col-lg-offset-5 col-md-offset-5"> <a href="#" class="btn btn-lg btn-success">LOAD MORE</a></div></div>
+            <div class="col-xs-12 col-sm-12 col-lg-4 col-md-4 col-lg-offset-4 col-md-offset-4"> <a href="#" class="btn btn-lg btn-success">LOAD MORE</a></div></div>
         <h1>Travel And Adventure</h1>
             <?php 
             $i=0;
@@ -190,7 +191,7 @@ background-position: center;background-size:cover;'><a href='#'></a>
             ?>
         
         <div class="row load">
-            <div class="col-xs-12 col-sm-12 col-lg-4 col-md-4 col-lg-offset-5 col-md-offset-5"> <a href="#" class="btn btn-lg btn-success">LOAD MORE</a></div></div>
+            <div class="col-xs-12 col-sm-12 col-lg-4 col-md-4 col-lg-offset-4 col-md-offset-4"> <a href="#" class="btn btn-lg btn-success">LOAD MORE</a></div></div>
         
                  
         <div class="row">
@@ -211,7 +212,7 @@ background-position: center;background-size:cover;'><a href='#'></a>
                             <header>
                                 <h3><a href="" id="genre">Lifestyle</a></h3>
                             </header>
-                            <a href="" class="image"><img src="img/1.jpg" alt="" /></a>
+                            <a href="" class="image"><img src="img/lifestyle.jpg" alt="" /></a>
                         </article>
 
 
@@ -221,7 +222,7 @@ background-position: center;background-size:cover;'><a href='#'></a>
                             <header>
                                 <h3><a href="" id="genre">Entertainment</a></h3>
                             </header>
-                            <a href="" class="image"><img src="img/event.jpg" alt="" /></a>
+                            <a href="" class="image"><img src="img/enter.jpg" alt="" /></a>
                         </article>
 
 
@@ -231,7 +232,7 @@ background-position: center;background-size:cover;'><a href='#'></a>
                             <header>
                                 <h3><a href="" id="genre">Art,Culture &amp; Heritage</a></h3>
                             </header>
-                            <a href="" class="image"><img src="img/3.jpg" alt="" /></a>
+                            <a href="" class="image"><img src="img/art.jpg" alt="" /></a>
                         </article>
 
                         <article class="mini-post col-xs-12 col-sm-12 col-lg-6 col-md-6">
@@ -239,7 +240,7 @@ background-position: center;background-size:cover;'><a href='#'></a>
                             <header>
                                 <h3><a href="" id="genre">Health &amp; Wellness</a></h3>
                             </header>
-                            <a href="" class="image"><img src="img/food.jpg" alt="" /></a>
+                            <a href="" class="image"><img src="img/health.jpg" alt="" /></a>
                         </article>
 
 
@@ -249,7 +250,7 @@ background-position: center;background-size:cover;'><a href='#'></a>
                             <header>
                                 <h3><a href="" id="genre">Fashion &amp; Beauty</a></h3>
                             </header>
-                            <a href="" class="image"><img src="img/fashion.jpg" alt="" /></a>
+                            <a href="" class="image"><img src="img/fashion2.jpg" alt="" /></a>
                         </article>
 
                         <article class="mini-post col-sm-12 col-xs-12 col-lg-6 col-md-6">
@@ -257,7 +258,7 @@ background-position: center;background-size:cover;'><a href='#'></a>
                             <header>
                                 <h3><a href="" id="genre">Travel &amp; Adventure</a></h3>
                             </header>
-                            <a href="" class="image"><img src="img/travel.jpg" alt="" /></a>
+                            <a href="" class="image"><img src="img/travel2.jpg" alt="" /></a>
                         </article>
 
                     </div>
@@ -286,7 +287,7 @@ background-position: center;background-size:cover;'><a href='#'></a>
 												<p>By: Prabhat Khanna</p>
 												<time class='published' datetime='2017-08-2'>August 2, 2017</time>
 											</header>
-											<a href='#' class='image'><img src='img/poa.jpg' alt='' /></a>
+											<a href='#' class='image'><img src='img/fashion2.jpg' alt='' /></a>
 										</article>
 									</li>";
                                 $p++;

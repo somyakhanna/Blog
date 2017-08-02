@@ -1,25 +1,81 @@
 
 
+input {
+    background-color: #ffffff;
+    border: none;
+    font-size: 16px;
+    padding: 10px 0px 10px 0px;
+	color:black;
+}
 
-#share-buttons img {
-width: 35px;
-padding: 5px;
-border: 0;
-box-shadow: 0;
-display: inline;
+.expandSearch {
+    margin-top: 8px;
+    margin-left: 5px;
 }
-#share-buttons a{
-    
-    color:white;
-   margin-right:1%;
-    padding:1%;
-    text-decoration: none;
+
+.expandSearch,
+.expandSearch input,
+.expandSearch a {
+    float: left;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
-#fb{
-    background-color: #3B5998;
+
+.expandSearch input {
+    height: 22px;
+    overflow: hidden;
+    width: 0px;
+    opacity: 0;
 }
-#twi{
-    background-color:  #00aced;
+
+.expandSearch a {
+    display: block;
+    padding: 12px 15px 8px 15px;
+    background-color: #fff;
+}
+
+.showSearch input {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 20px;
+    width: 100px;
+    opacity: 1;
+	color:black;
+}
+
+.showSearch a {
+    background-color: #b3d2f2;
+}
+
+.showSearch {
+    border-color: #b3d2f2;
+}
+
+
+
+.btn-facebook {
+	color: #fff;
+	background-color: #4C67A1;
+}
+.btn-facebook:hover {
+	color: #fff;
+	background-color: #405D9B;
+}
+.btn-facebook:focus {
+	color: #fff;
+}
+
+.btn-twitter {
+	color: #fff;
+	background-color: #00aced;
+}
+.btn-twitter:hover {
+	color: #fff;
+	background-color: #00aced;
+}
+.btn-twitter:focus {
+	color: #fff;
 }
 #header .links {
     -moz-flex: 1;
@@ -86,20 +142,21 @@ display: inline;
     line-height: 1;
     margin-left: 0 0.1em 0 0.1em;
     padding: 0 0.1em 0 0.1em;
+    
 }
 
 #footer .links ul li a {
     border-bottom: 0;
     font-family: "Raleway", Helvetica, sans-serif;
-    font-size: 0.7em;
+    font-size: 0.6em;
     font-weight: 600;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
 }
 
 #header .links ul li {
     border-left: solid 1px rgba(160, 160, 160, 0.3);
-    line-height: 1;
+    line-height: 0.8;
     margin-left: 0 0.1em 0 0.1em;
     padding: 0 0.1em 0 0.1em;
 }
@@ -107,9 +164,9 @@ display: inline;
 #header .links ul li a {
     border-bottom: 0;
     font-family: "Raleway", Helvetica, sans-serif;
-    font-size: 0.7em;
+    font-size: 0.6em;
     font-weight: 600;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
 }
 
