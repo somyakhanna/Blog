@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>POA menu</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        #logo{
+    width:90px;
+    height:60px;
+    
+}
+
+.resp-text {
+            font-size: 0.95em;
+            text-transform: uppercase;
+        }
+        
+        @media screen and (max-width: 898px) and (min-width: 520px) {
+            .resp-text {
+                font-size: 0.51em;
+            }
+            .foo-text {
+                font-size: 0.575em;
+            }
+        }
+        
+        @media screen and (max-width: 940px) and (min-width: 899px) {
+            .resp-text {
+                font-size: 0.73em;
+            }
+            #logo {
+                height: 3em;
+                width: 5em;
+            }
+            .foo-text {
+                font-size: 0.575em;
+            }
+        }
+        
+        @media screen and (max-width: 1360px) and (min-width: 1200px) {
+            .resp-text {
+                font-size: 0.85em;
+            }
+            .foo-text {
+                font-size: 0.85em;
+            }
+        }
+        
+        @media screen and (max-width: 1150px) and (min-width: 1000px) {
+            .resp-text {
+                font-size: 0.85em;
+            }
+            .foo-text {
+                font-size: 0.85em;
+            }
+        }
+   
+        .header-nav{
+            background-color: white;
+        }       
+.main-nav{
+    padding-left:5%;
+    background-color: white;
+    padding-right:5%;
+    margin-top:5%;
+   
+}
+*,
+ :active {
+    outline: none!important;
+}
+
+input {
+    background-color: #ffffff;
+    border: none;
+    font-size: 16px;
+    padding: 5px 0px 0px 0px;
+}
+
+.expandSearch {
+    margin-top: 4px;
+    margin-left: 5px;
+}
+
+.expandSearch,
+.expandSearch input,
+.expandSearch a {
+    float: left;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.expandSearch input {
+    height: 22px;
+    overflow: hidden;
+    width: 0px;
+    opacity: 0;
+}
+
+.expandSearch a {
+    display: block;
+    padding: 12px 15px 8px 15px;
+    background-color: #fff;
+}
+
+.showSearch input {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 20px;
+    width: 100px;
+    opacity: 1;
+}
+
+.showSearch a {
+    background-color: #b3d2f2;
+}
+
+.showSearch {
+    border-color: #b3d2f2;
+}
+
+    </style>
+  
+  </head>
+  
+  
+  <body>
+      <nav class="navbar navbar-default header-nav">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      
+        <a  href="#" class="navbar-left" id="logo">
+           <img alt="Brand" src="img/logo.jpg" id="logo" class="img-responsive">
+      </a>   
+
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+     
+      <form class="navbar-form navbar-right">
+         <p class="expandSearch">
+                                            <input type="text" placeholder="Search" />
+                                            <a href="#">
+                                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="20px" viewBox="375.045 607.885 30.959 30.33" enable-background="" xml:space="preserve">
+					<path fill="#494949" d="M405.047,633.805l-7.007-6.542c-0.129-0.121-0.267-0.226-0.408-0.319c1.277-1.939,2.025-4.258,2.025-6.753 c0-6.796-5.51-12.306-12.307-12.306s-12.306,5.51-12.306,12.306s5.509,12.306,12.306,12.306c2.565,0,4.945-0.786,6.916-2.128 c0.122,0.172,0.257,0.337,0.418,0.488l7.006,6.542c1.122,1.048,2.783,1.093,3.709,0.101 C406.327,636.507,406.169,634.853,405.047,633.805z M387.351,629.051c-4.893,0-8.86-3.967-8.86-8.86s3.967-8.86,8.86-8.86 s8.86,3.967,8.86,8.86S392.244,629.051,387.351,629.051z"/>
+				</svg>
+                                            </a>
+                                        </p>
+      </form>
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+ <nav class="navbar navbar-default main-nav navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      
+      
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      
+      <ul class="nav navbar-nav">
+          <li> &nbsp;</li>
+                            <li class="resp-text"><a href="#">Lifestyle</a></li>
+
+
+                            <li class="resp-text"><a href="#">Food &amp; Beverages</a></li>
+
+
+                            <li class="resp-text"><a href="#">Health &amp; Wellness</a></li>
+
+
+
+                            <li class="resp-text"><a href="#">Entertainment</a></li>
+
+
+                            <li class="resp-text"><a href="#">Travel &amp; Adventure</a></li>
+
+
+                            <li class="resp-text"><a href="#">Art, Culture &amp; Heritage</a></li>
+</ul>
+                              
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+      <h1>Some Content Here</h1>
+     <h1>Some Content Here</h1>     <h1>Some Content Here</h1>     <h1>Some Content Here</h1>     <h1>Some Content Here</h1>     <h1>Some Content Here</h1>     <h1>Some Content Here</h1>     <h1>Some Content Here</h1>     <h1>Some Content Here</h1>     <h1>Some Content Here</h1>     <h1>Some Content Here</h1>     <h1>Some Content Here</h1>     <h1>Some Content Here</h1>     <h1>Some Content Here</h1>     <h1>Some Content Here</h1>     <h1>Some Content Here</h1>     <h1>Some Content Here</h1>     <h1>Some Content Here</h1>     <h1>Some Content Here</h1>     <h1>Some Content Here</h1>     <h1>Some Content Here</h1>     <h1>Some Content Here</h1>     <h1>Some Content Here</h1>     <h1>Some Content Here</h1>     <h1>Some Content Here</h1>     <h1>Some Content Here</h1>     <h1>Some Content Here</h1>     <h1>Some Content Here</h1>     <h1>Some Content Here</h1>     <h1>Some Content Here</h1>     <h1>Some Content Here</h1>     <h1>Some Content Here</h1>     <h1>Some Content Here</h1>     <h1>Some Content Here</h1>     <h1>Some Content Here</h1>
+
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+      <script src="js/script.js"></script>
+  </body>
+</html>
