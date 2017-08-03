@@ -990,7 +990,8 @@ ul.actions.fit.small li {
 
 .banner-post {
     position: relative;
-    top: 30%;
+    top: 60%;
+    left:-1%;
 }
 
 .banner-post a {
@@ -1000,13 +1001,13 @@ ul.actions.fit.small li {
 #banner-heading {
     color: whitesmoke;
     text-decoration: none;
-    font-size: 44px;
-    letter-spacing: 0.05em;
+    font-size: 36px;
+    letter-spacing: 0.01em;
     font-family: "Raleway", Helvetica, sans-serif;
 }
 
 #banner-heading:hover {
-    letter-spacing: 0.05em;
+    letter-spacing: 0.01em;
     color: white;
     text-decoration: underline;
 }

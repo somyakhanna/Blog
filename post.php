@@ -76,7 +76,7 @@
                     <h2 class="section-heading">The Cold Coffee</h2>
                     <p>Whoever said there’s no better high than a coffee high, probably had this coffee before saying it. Strong brewed coffee, with flavours like Brownie, Choco Chip to name a few. But our favourite is the Bhayankar Cramel Cold Coffee. We bet you’ll get addicted to it. “Isko piya toh life jhingalala!�?</p>
                     <a href="#"> 
-                     <img class="img-responsive col-xs-12 col-md-12 col-lg-12" src="img/story2.jpg" alt="">
+                        <img class="img-responsive col-xs-12 col-md-12 col-lg-12" src="img/fashion2.jpg" alt="">
                     </a>
                     <span class="caption text-muted">Some Text About The Image Here</span>
                     <p>It is a blessing for those who cannot stay without coffee, but don’t want to spend too much on it. That is why they have a tagline which says “It just tastes expensive�?. What made us fall in love with this place is their, Bhayankar Thandi Coffee. Don’t judge it by the name! But it is indeed as kickass as the name.</p>
